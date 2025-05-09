@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-      <MyComponent text={'Hello world'}/>
+        <MyComponent title={'Hello world'}>
+            Lorem ipsum dolor sit amet.
+        </MyComponent>
     </>
   )
 }
